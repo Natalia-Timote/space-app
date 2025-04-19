@@ -1,22 +1,33 @@
 import styled from "styled-components";
 
-const TituloEstilizado = styled.h1`
-    position: relative;
-    padding-left: 64px;
-    align-self: center;
-    font-size: 40px;
-    font-family: "GandhiSansRegular";
-    font-weight: 300;
-    color: #FFF;
-    width: 300px;
+const FigureEstilizada = styled.figure`
+    background-image: ${props => `url(${props.$backgroundImage})`};
+    flex-grow: 1;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    min-height: 328px;
+    margin: 0;
+    border-radius: 20px;
+    max-width: 100%;
+    background-size: cover;
 `;
 
-const TituloBanner = ({ children }) => {
+const TituloEstilizado = styled.h1`
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFF;
+    max-width: 300px;
+    padding: 0 64px;
+`;
+
+const Banner = ({ texto, $backgroundImage }) => {
     return (    
-            <TituloEstilizado>
-                {children}
-            </TituloEstilizado>
+            <FigureEstilizada $backgroundImage={$backgroundImage}>
+                <TituloEstilizado>{texto}</TituloEstilizado>
+            </FigureEstilizada>
     )
 }
 
-export default TituloBanner;
+export default Banner;
