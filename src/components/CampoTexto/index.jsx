@@ -29,10 +29,10 @@ const IconeLupa = styled.img`
     height: 40px;
 `;
 
-const CampoTexto = (props) => {
+const CampoTexto = ({ setFiltro }) => {
     return (
         <ContainerEstilizado>
-            <InputEstilizado placeholder="O que você procura?" {...props} />
+            <InputEstilizado onChange={(evento) => { setFiltro(evento.target.value) }} placeholder="O que você procura?" />
             <IconeLupa src={search} alt="Ícone de lupa" />
         </ContainerEstilizado>
     )
