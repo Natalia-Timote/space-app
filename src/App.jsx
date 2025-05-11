@@ -75,7 +75,7 @@ const App = () => {
           <BarraLateral />
           <ConteudoGaleria>
             <Banner 
-              $backgroundImage={"src/assets/banner.png"} 
+              $backgroundImage={"/src/assets/banner.png"} 
               texto={"A galeria mais completa de fotos do espaço!"} 
             />
             <Galeria
