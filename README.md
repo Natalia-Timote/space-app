@@ -16,8 +16,6 @@ O SpaceApp é uma galeria interativa de imagens espaciais, onde você pode: expl
 
 ## 📚 Objetivos do Curso
 
-**👉 React: estilize componentes com Styled Components e manipule arquivos estáticos**
-
 * Diferenciar o **Vite** do **CRA** e conhecer as vantagens do uso do Styled Components;
 * Utilizar **styled-components** para criação de uma NavBar e estilização de um banner;
 * Projetar e implementar **componentes React** para exibir imagens e legendas;
@@ -26,7 +24,7 @@ O SpaceApp é uma galeria interativa de imagens espaciais, onde você pode: expl
 
 ## 🛠️ Tecnologias Utilizadas
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" width="80" height="80"/>                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" width="80" height="80"/>                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="80" height="80"/>        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" width="80" height="80"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" width="80" height="80"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" width="80" height="80"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="80" height="80"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" width="80" height="80"/>
 
 ## 🖼️ Visualização do Projeto
 
@@ -42,16 +40,16 @@ O projeto está disponível para visualização na **Vercel**. Clique no link ab
 
 Visualização com as imagens e filtros disponíveis.
 
-![Página inicial](public/imagens/space-app-home.png)
+<img src="public/imagens/space-app-home.png" alt="Página Inicial" width="600"/>
 
 **🔍 Busca e Filtros**
 
 Pesquisa e filtragem das imagens em tempo real.
 
-![Carrinho lateral aberto](public/imagens/space-app-filtro.png)
+<img src="public/imagens/space-app-filtro.png" alt="Busca e Filtros" width="600"/>
 
 **⭐ Favoritar e Detalhar**
 
 Ampliar imagem, ver detalhes e favoritar.
 
-![Finalização da compra](public/imagens/space-app-zoom-favorito.png)
+<img src="public/imagens/space-app-zoom-favorito.png" alt="Página Inicial" width="400"/>
